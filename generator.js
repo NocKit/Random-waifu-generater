@@ -9,6 +9,11 @@ function startGenerator() {
     generateCharacter();
     generateCup();
     generateSkin();
+    generateName();
+}
+
+function generateName() {
+    randomData("name",NAME);
 }
 
 function generateCup() {
